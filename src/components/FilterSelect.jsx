@@ -2,11 +2,8 @@ import Select from 'react-select';
 import { products } from '../utils/products';
 
 const options = [
-    { value: "tote bag", label: "Tote" },
-    { value: "backpack bag", label: "Backpack" },
-    { value: "crossbody bag", label: "Crossbody" },
-    { value: "duffel bag", label: "Duffel" },
-    { value: "belt bag", label: "Belt" },
+    { value: "Women", label: "Women" },
+    { value: "Men", label: "Men" },
 ];
 
 const customStyles = {

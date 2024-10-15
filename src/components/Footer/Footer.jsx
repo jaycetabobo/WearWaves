@@ -1,51 +1,53 @@
-import React from "react"
-import "./style.css"
-import { Col, Container, Row } from "react-bootstrap"
+import React from "react";
+import "./style.css";
+import { Col, Container, Row } from "react-bootstrap";
 
 const Footer = () => {
   return (
     <footer>
-        <Container>
-          <Row className="footer-row">
-            <Col md={3} sm={5} className='box'>
-              <div className="logo">
-                  <ion-icon name="bag"></ion-icon>
-                  <h1>Multimart</h1>
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor libero id et, in gravida. Sit diam duis mauris nulla cursus. Erat et lectus vel ut sollicitudin elit at amet.</p>
-            </Col>
-            <Col md={3} sm={5} className='box'>
-              <h2>About Us</h2>
-              <ul>
-                <li>Careers</li>
-                <li>Our Stores</li>
-                <li>Our Cares</li>
-                <li>Terms & Conditions</li>
-                <li>Privacy Policy</li>
-              </ul>
-            </Col>
-            <Col md={3} sm={5} className='box'>
-              <h2>Customer Care</h2>
-              <ul>
-                <li>Help Center </li>
-                <li>How to Buy </li>
-                <li>Track Your Order </li>
-                <li>Corporate & Bulk Purchasing </li>
-                <li>Returns & Refunds </li>
-              </ul>
-            </Col>
-            <Col md={3} sm={5} className='box'>
-              <h2>Contact Us</h2>
-              <ul>
-                <li>70 Washington Square South, New York, NY 10012, United States </li>
-                <li>Email: uilib.help@gmail.com</li>
-                <li>Phone: +1 1123 456 780</li>
-              </ul>
-            </Col>
-          </Row>
-        </Container>
+      <Container>
+        <Row className="footer-row">
+          <Col md={3} sm={5} className="box">
+            <div className="logo">
+              <ion-icon name="water"></ion-icon>
+              <h1>WearWaves</h1>
+            </div>
+            <p>
+              Dive into style with WearWaves! Discover our vibrant collection of swimwear designed for beach lovers and water enthusiasts. Your perfect summer awaits!
+            </p>
+          </Col>
+          <Col md={3} sm={5} className="box">
+            <h2>About Us</h2>
+            <ul>
+              <li>Our Story</li>
+              <li>Swimwear Collections</li>
+              <li>Eco-Friendly Practices</li>
+              <li>Terms & Conditions</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </Col>
+          <Col md={3} sm={5} className="box">
+            <h2>Customer Care</h2>
+            <ul>
+              <li>Help Center</li>
+              <li>How to Order</li>
+              <li>Track Your Order</li>
+              <li>Size Guide</li>
+              <li>Returns & Exchanges</li>
+            </ul>
+          </Col>
+          <Col md={3} sm={5} className="box">
+            <h2>Contact Us</h2>
+            <ul>
+              <li>123 Ocean Drive, Miami, FL 33139, United States</li>
+              <li>Email: support@wearwaves.com</li>
+              <li>Phone: +1 800 123 4567</li>
+            </ul>
+          </Col>
+        </Row>
+      </Container>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

@@ -1,37 +1,112 @@
+/* src/components/Wrapper/style.css */
+
+/* Wrapper Section Styling */
 .wrapper {
   text-align: center;
-  background-color: white;
+  background-color: #e0f7fa;
+  /* Light blue background to represent water */
+  padding: 60px 0;
+  position: relative;
+  overflow: hidden;
+  background-image: url('../../Images/waves-background.png');
+  /* Update with your wave image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
+/* Wave Animation Overlay */
+.wrapper::before {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 100px;
+  bottom: 0;
+  left: -50%;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 100%;
+  animation: wave-animation 8s infinite linear;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(50%);
+  }
+}
+
+/* Feature Box Styling */
+.feature {
+  padding: 30px 20px;
+  border: 2px solid #b2ebf2;
+  /* Soft turquoise border */
+  border-radius: 12px;
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.feature:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon Styling */
 .icon {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  font-size: 25px;
-  background: #f3f5f9;
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 20px auto;
 }
 
-.wrapper .row {
-  justify-content: center;
-}
-
-.wrapper .feature {
-  padding: 10px;
-  border: 4px solid white;
-}
-
+/* Title Styling */
 .wrapper .feature h3 {
-  font-size: 18px;
-  font-weight: 500;
-  width: fit-content;
-  margin: 0 auto !important;
+  font-size: 20px;
+  font-weight: 600;
+  color: #00796b;
+  /* Dark teal color */
+  margin-top: 15px;
 }
 
+/* Subtitle/Description Styling */
 .wrapper p {
-  font-size: 15px;
-  margin-top: 20px;
+  font-size: 16px;
+  margin-top: 15px;
+  color: #004d40;
+  /* Deep greenish-blue for text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 40px 0;
+  }
+
+  .feature {
+    padding: 20px 15px;
+    border-width: 1px;
+  }
+
+  .wrapper .feature h3 {
+    font-size: 18px;
+  }
+
+  .wrapper p {
+    font-size: 14px;
+  }
+
+  .icon {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+  }
 }
