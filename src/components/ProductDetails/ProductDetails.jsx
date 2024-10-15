@@ -10,7 +10,7 @@ const ProductDetails = ({ selectedProduct }) => {
 
   const [quantity, setQuantity] = useState(1);
   const handleQuantityChange = (e) => {
-    setQuantity(e.target.value);
+    setQuantity(parseInt(e.target.value, 10) || 1); // Parse the value as an integer
   };
   const handelAdd = (selectedProduct, quantity) => {
     dispatch(addToCart({ product: selectedProduct, num: quantity }));
@@ -37,7 +37,7 @@ const ProductDetails = ({ selectedProduct }) => {
               <span>{selectedProduct?.avgRating} ratings</span>
             </div>
             <div className="info">
-              <span className="price">${selectedProduct?.price}</span>
+              <span className="price">₱{selectedProduct?.price}</span>
               <span>category:{selectedProduct?.category}</span>
             </div>
             <p>{selectedProduct?.shortDesc}</p>
