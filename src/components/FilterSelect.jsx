@@ -2,11 +2,11 @@ import Select from 'react-select';
 import { products } from '../utils/products';
 
 const options = [
-    { value: "sofa", label: "Sofa" },
-    { value: "chair", label: "Chair" },
-    { value: "watch", label: "Watch" },
-    { value: "mobile", label: "Mobile" },
-    { value: "wireless", label: "Wireless" },
+    { value: "tote bag", label: "Tote" },
+    { value: "backpack bag", label: "Backpack" },
+    { value: "crossbody bag", label: "Crossbody" },
+    { value: "duffel bag", label: "Duffel" },
+    { value: "belt bag", label: "Belt" },
 ];
 
 const customStyles = {
@@ -25,8 +25,8 @@ const customStyles = {
         backgroundColor: state.isSelected ? "#0f3460" : "white",
         color: state.isSelected ? "white" : "#0f3460",
         "&:hover": {
-        backgroundColor: "#0f3460",
-        color: "white",
+            backgroundColor: "#0f3460",
+            color: "white",
         },
     }),
     singleValue: (provided) => ({
@@ -35,17 +35,17 @@ const customStyles = {
     }),
 };
 
-const FilterSelect = ({setFilterList}) => {
-    const handleChange = (selectedOption)=> {
-        setFilterList(products.filter(item => item.category ===selectedOption.value))
+const FilterSelect = ({ setFilterList }) => {
+    const handleChange = (selectedOption) => {
+        setFilterList(products.filter(item => item.category === selectedOption.value))
     }
     return (
-    <Select
-    options={options}
-    defaultValue={{ value: "", label: "Filter By Category" }}
-    styles={customStyles}
-    onChange={handleChange}
-    />
+        <Select
+            options={options}
+            defaultValue={{ value: "", label: "Filter By Category" }}
+            styles={customStyles}
+            onChange={handleChange}
+        />
     );
 };
 
