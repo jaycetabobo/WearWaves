@@ -75,7 +75,7 @@ export const discoutProducts = [
     productName: "Hard Summer Triangle Top",
     imgUrl: discountproduct, // Path to your uploaded image
     category: "Women",
-    price: 6400, // Adjust the price as needed
+    price: 1499, // Adjust the price as needed
     discount: 20, // Adjust the discount percentage as needed
     shortDesc: "Shine at the beach with this metallic rose gold triangle top.",
     description:
@@ -93,7 +93,7 @@ export const discoutProducts = [
     productName: "Ice & Slice",
     imgUrl: discountproduct2, // Path to your uploaded image
     category: "Men",
-    price: 4737, // Adjust the price as needed
+    price: 999, // Adjust the price as needed
     discount: 10, // Adjust the discount percentage as needed
     shortDesc: "Refresh your look and get fruity this season with our Ice & Slice shorts.",
     description:
@@ -119,7 +119,7 @@ export const products = [
     productName: "Hard Summer Triangle Top",
     imgUrl: discountproduct, // Path to your uploaded image
     category: "Women",
-    price: 6400, // Adjust the price as needed
+    price: 1499, // Adjust the price as needed
     shortDesc: "Shine at the beach with this metallic rose gold triangle top.",
     description:
       "Hard Summer is Beach Bunny's top selling collection. Our rose gold fabric is metallic and you will shine at the beach or pool.",
@@ -136,7 +136,7 @@ export const products = [
     productName: "Ice & Slice",
     imgUrl: discountproduct2, // Path to your uploaded image
     category: "Men",
-    price: 4737, // Adjust the price as needed
+    price: 999, // Adjust the price as needed
     shortDesc: "Refresh your look and get fruity this season with our Ice & Slice shorts.",
     description:
       "They're made from 100% super-soft, quick drying recycled REPREVE® polyester and come in a mid length. Each pair comes with a matching swim bag. Feel like a peach on the *Paired best with a G&T!.",
@@ -158,7 +158,7 @@ export const products = [
     productName: "Fresh Prince Womens",
     imgUrl: productswim, // Path to your uploaded image
     category: "Women", // or "shoulder bag" depending on your preference
-    price: 4332, // Adjust the price as needed
+    price: 989, // Adjust the price as needed
     shortDesc: "Stylish swimwear with quick-drying fabric and a matching mini bag.",
     description:
       "Now, this is a story all about how your style got flipped-turned upside down... sit on your throne - or sun lounger this Summer and feel like the Fresh Prince(ss) in our fresh print. They're made from super-soft, quick drying fabric and come with a matching mini bag. Perfect for pairing with a bikini, one-piece or even one of our t-shirts.",
@@ -180,7 +180,7 @@ export const products = [
     productName: "Purfect Paradise Triangle",
     imgUrl: productswim2,  // Path to your uploaded image
     category: "Women",  // or "shoulder bag" depending on your preference
-    price: 4043,  // Adjust the price as needed
+    price: 1299,  // Adjust the price as needed
     shortDesc: "Leopard print triangle top made from 100% recycled materials, featuring a rose gold clasp and adjustable straps.",
     description: "What's your 'Purfect' Paradise? This leopard adorned, jungle inspired triangle top is made from premium 100% regenerated materials.* It features a branded rose gold back clasp fastening and adjustable shoulder straps. Pair with the classic bottoms or with the high waisted bottoms if you're feeling more active. You'll be sure to look the coolest cat in the pool! Model is 165 / 5'4 and is wearing XS top / XS bottom.This bikini comes in a swim bag perfect for your travels. * The solid colour of this bikini top is made from ECONYL®, a fibre produced by recovering nylon waste such as fishing nets from the oceans and other discarded waste material.It is then turned into virgin quality nylon yarn.The printed fabric is made from REPREVE®, a fibre made from 100 % recycled plastic, most of which are water bottles.They offset the use of new petroleum, emitting fewer greenhouse gases, whilst conserving water and energy throughout the process.",
     reviews: [
@@ -200,7 +200,7 @@ export const products = [
     productName: "CIRO & LUMA SUNLACE white crochet bikini",
     imgUrl: productswim3,  // Path to your uploaded image
     category: "Women",  // or "fanny pack" depending on your preference
-    price: 3025,  // Adjust the price as needed
+    price: 1699,  // Adjust the price as needed
     shortDesc: "Adjustable triangle top with a trendy crocheted design, perfect for a stylish summer look.",
     description: "CIRO SUNLACE white bikini top: this triangle top is a key piece in our collection and is fully adjustable with ties. Its on-trend crocheted design sets it apart.",
     reviews: [
@@ -221,7 +221,7 @@ export const products = [
     productName: "Palms Swim Brief",
     imgUrl: productswim4,  // Path to your uploaded image
     category: "Men",
-    price: 3466,  // Adjust the price as needed
+    price: 899,  // Adjust the price as needed
     shortDesc: "Stylish swim briefs featuring a vibrant palm print, perfect for beach days and poolside lounging.",
     description: "Leafing soon to go on vacation? Just like plants, we also need a bit of sunlight and water to live our best lives. Throw our Palm swim briefs in your case this Summer and let the compliments roll in. They're made from super-soft and quick drying fabric. ",
     reviews: [
@@ -241,7 +241,7 @@ export const products = [
     productName: "Black / Neon Green Stretch",
     imgUrl: productswim5,  // Path to your uploaded image
     category: "Men",
-    price: 4737,  // Adjust the price as needed
+    price: 1110,  // Adjust the price as needed
     shortDesc: "Classic black active shorts with neon green palm tree detail, made from soft, recycled REPREVE® polyester.",
     description: "Keep it classic this season in our solid black active shorts. Simple with a pop of a green neon Boardies® palm tree to light up your Summer. They're made from a super-soft, recycled stretch REPREVE® polyester. The black draw cords have neon green dipped ends, zip side pockets and the shorts are lined with a black sporty mesh with a neon green branded Boardies® binding.  Perfect for taking you from gym to swim!",
     reviews: [

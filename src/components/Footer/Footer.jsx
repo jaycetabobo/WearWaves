@@ -39,9 +39,9 @@ const Footer = () => {
           <Col md={3} sm={5} className="box">
             <h2>Contact Us</h2>
             <ul>
-              <li>123 Ocean Drive, Miami, FL 33139, United States</li>
-              <li>Email: support@wearwaves.com</li>
-              <li>Phone: +1 800 123 4567</li>
+              <li>Zone 8 Zayas, Carmen, CDO</li>
+              <li>Email: wendreath13@gmail.com </li>
+              <li>Phone: 09362579683</li>
             </ul>
           </Col>
         </Row>
